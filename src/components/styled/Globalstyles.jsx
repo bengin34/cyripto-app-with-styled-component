@@ -1,8 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
-
-
 export const GlobalStyles = createGlobalStyle`
 *{
     padding:0;
@@ -45,4 +42,3 @@ h3{
     margin-right:0rem;
 }
 `;
-

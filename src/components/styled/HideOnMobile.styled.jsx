@@ -9,7 +9,6 @@ import styled from "styled-components";
   }
 `;
 
-
 export const HideOnMobileH3 = styled.h3`
 @media (max-width: 768px) {
   display: none;

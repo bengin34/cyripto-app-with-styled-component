@@ -1,8 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
-
-margin:auto
+  margin: auto;
 `;
 
 export default Container;

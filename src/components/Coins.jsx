@@ -4,13 +4,13 @@ import Coin from "../routes/Coin";
 import { Link } from "react-router-dom";
 import Container from "./styled/Container.styled";
 import Heading from "./styled/Heading.styled";
-import {HideOnMobileH3} from "./styled/HideOnMobile.styled";
+import { HideOnMobileH3 } from "./styled/HideOnMobile.styled";
 
 const Coins = ({ coins }) => {
   return (
     <>
       <Container>
-        <Heading weight= { }>
+        <Heading weight={"300"}>
           <h3>Rank</h3>
           <h3>Coin</h3>
           <h3>Price</h3>

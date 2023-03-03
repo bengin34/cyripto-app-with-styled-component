@@ -7,32 +7,29 @@ const TableWrapper = styled.div`
     & th:nth-of-type(1),
     & td:nth-of-type(1),
     & th:nth-of-type(2),
-    & td:nth-of-type(2){
+    & td:nth-of-type(2) {
       display: none;
     }
   }
 
-  table{
-    margin: .5rem 0;
+  table {
+    margin: 0.5rem 0;
+  }
 
-}
-
-td, th {
+  td,
+  th {
     padding: 2px;
     text-align: center;
- 
-}
+  }
 
-th{
-    background-color:#444;
+  th {
+    background-color: #444;
+  }
 
-}
-
-
-    td, th {
-      padding: 0.4rem;
-    }
-  
+  td,
+  th {
+    padding: 0.4rem;
+  }
 `;
 
-export default TableWrapper
+export default TableWrapper;

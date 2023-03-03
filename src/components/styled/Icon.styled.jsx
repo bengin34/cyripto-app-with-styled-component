@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Icon = styled.div`
-font-size: 3rem;
+font-size: ${({ rank }) => (rank ? "2rem" : "3rem")};
 color: ${({ rank }) => (rank || "red")};
 `;
 
