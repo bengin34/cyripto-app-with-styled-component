@@ -10,13 +10,11 @@ const Header = () => {
   return (
 <Link to="/"  id="RouterNavLink">
     <Nav >
-    <div className="container flex flex-wrap items-center justify-center mx-auto">
+   
         <Icon >
         <FaCoins />
-            <span >COINS  <span className='text-red-700'>CORNER</span> </span>
+            <span >COIN <span> TRACKER</span> </span>
         </Icon>
-    
-    </div>
     </Nav>
 </Link>
   )

@@ -10,7 +10,7 @@ const Coins = ({ coins }) => {
   return (
     <>
       <Container>
-        <Heading weight>
+        <Heading weight= { }>
           <h3>Rank</h3>
           <h3>Coin</h3>
           <h3>Price</h3>

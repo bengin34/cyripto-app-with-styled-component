@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
  export const HideOnMobile = styled.p`
+  line-height:2;
+    opacity: 0.7;
+    
   @media (max-width: 768px) {
     display: none;
   }

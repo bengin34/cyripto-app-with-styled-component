@@ -18,15 +18,16 @@ body{
  }
 
 img{
-    height:40px;
+    height:50px;
+    width:50px;
     margin-right: 8px;
     width: auto;
 
 }
 
+
 p{
     line-height:2;
-  
     opacity: 0.7;
 }
 
@@ -44,3 +45,4 @@ h3{
     margin-right:0rem;
 }
 `;
+
